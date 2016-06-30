@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> My first HTML document </title>
+<link rel="stylesheet"
+href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body class="container-fluid">
+    <div class="row"></div>
+    <div class="col-sm-4" style="background-color: lavender;">.col-sm-4</div>
+<div class="col-sm-4" style="background-color:lavenderblush;">.col-sm-4</div>
+   <div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
+    Hello, World!
+<h1> My main header</h1>
+<h2> Second one</h2>
+<h3> This one should be the last </h3>
+<h4> but it wasn't the last </h4>
+<h5> I can only make so many </h5>
+<h6> This is the smallest one and maybe the last </h6>
+<p class="warning intro"> One line </p>
+<p class="warning"> Two line </p>
+<p>black text </p>
+    <p><em>still black text</em> <br>
+One Line <br>
+Two line <br>
+Black text <br>
+Is all I can make <br>
+For Now... </p>
+<ul>
+<li>Bullet One</li>
+    <li><em>Bullet Two</em></li>
+<li id="sky">Bullet in You</li>
+</ul>
+<ol>
+<li class="special">Direction one</li>
+<li>Direction To</li>
+<li>Do the thing where the thing happens so that the thing is over and we can stop doing the thing</li>
+    </ol>
+<table class="table table-bordered table-condensed table-hover">
+<tr>
+<th>Food</th>
+<th>Condiments</th>
+</tr>
+<tr>
+<td>Pancakes</td>
+    <td>Syrup</td>
+</tr>
+<tr>
+<td>Pancakes</td>
+    <td>Syrup</td>
+</tr><tr>
+<td>Pancakes</td>
+    <td>Syrup</td>
+</tr>
+    </table>
+<h1 style="color:red;">I learned how to write red</h1>
+<h1 style="color:red;">I learned how to write blue too</h1>
+<h1> But I still wrote it in red </h1>
+<img class="img-responsive img-rounded img-thumbnail" src="http://www.andicakes.com/wp-content/uploads/2011/04/Easy-Cherry-pie1.jpg">
+    <img src="http://www.foothill.edu/images/fhlogo.jpg" alt="Foothill Logo">
+<p>
+<a href="http://www.foothill.edu/index.php"><img src="http://www.foothill.edu/images/fhlogo.jpg" alt = "Foothill Logo"></a>
+<p>
+<a href="http://www.magicmgmt.com/gary/oi_tallerline/"
+>Which line is taller</a><br>
+    
+<style>
+   p { font: italic 16px sans-serif;
+   color: #ff00ff;
+   }
+    #sky {
+    color: blue;
+    }
+    </style>
+    <style>
+    body {
+color: red;
+background-color: #0000ff
+    }
+    h1 {
+        color: white;
+
+    }
+    .warning {
+        color:purple;
+    }
+    .intro {
+        background-color:black; 
+    }
+    h2 {
+     color: purple;   
+    }
+        /* this code is terrible */
+        ul em {
+            color:yellow;
+        }
+        li.special {
+           color:antiquewhite;
+        }
+    </style>
+    <script type="text/javascript">
+        function favoritePenguin (species, count) {
+console.log("My favorite type of penguin is the "+species+" Penguin. I have "+count+" "+species+"s");
+        }
+        favoritePenguin ('Gentoo',5);
+        favoritePenguin ("Emperor",3);
+function changeText() {
+    var inputText = document.getElementById('theInput').value;
+    document.getElementById('demo').innerHTML = inputText;
+}
+   console.log('Hello World');
+        console.log('Yay for penguins');
+        console.log('we like penguins');
+      var people=1000000;
+      var memesperperson=1000;
+    var meme = people * memesperperson;
+      //  alert(meme + " total memes");//
+    function memefact(){
+        console.log('Memes cause life');
+    }
+        function square(num) {
+            return num * num
+        }
+        console.log(square(4))
+        console.log(square(5))
+        var finalAnswer = square(10);
+        var iamgood = true;
+        var iamnotgood = false;
+       var numberOfPenguins=4;
+        if (numberOfPenguins==3){
+            console.log("We have 3 penguins");
+        }
+        else{
+            console.log("more or less than three penguins : (");
+        }
+    </script>
+       <p id="demo"> waiting for user input...</p>
+   <input type='text' id='theInput' />
+    <button onclick='changeText()'>Enter Text </button>
+    <button type="button" onclick=memefact()>what do memes do?</button>
+</body>
+</html>
